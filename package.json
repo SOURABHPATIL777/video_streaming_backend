@@ -10,7 +10,13 @@
   "author": "Sourabh Patil",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^3.1.4",
+    "nodemon": "^3.1.5",
     "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.2"
   }
 }
