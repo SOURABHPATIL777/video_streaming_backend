@@ -3,6 +3,6 @@ import { registerUser } from "../controllers/user.controller.js";
 
 const router = Router();
 
-router.route('/register').post(registerUser)
+router.get('/register', registerUser);
 // router.route('/login').post(login);
 export default router;
