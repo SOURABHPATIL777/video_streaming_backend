@@ -1,4 +1,4 @@
-class apiError extends Error {
+class ApiError extends Error {
 
     constructor(
         statuscode,
@@ -23,4 +23,4 @@ class apiError extends Error {
 }
 
 
-export {apiError};
+export { ApiError };
